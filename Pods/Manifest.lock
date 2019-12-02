@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.8.1)
+  - ARCL (1.0.4)
+  - GoogleMaps (3.0.3):
+    - GoogleMaps/Maps (= 3.0.3)
+  - GoogleMaps/Base (3.0.3)
+  - GoogleMaps/Maps (3.0.3):
+    - GoogleMaps/Base
+  - GooglePlaces (3.0.3):
+    - GoogleMaps/Base (= 3.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - ARCL
+  - GoogleMaps
+  - GooglePlaces
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ARCL
+    - GoogleMaps
+    - GooglePlaces
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  ARCL: 5fd2b0d7aabf91f15dbc0e8c510b25516b8a755a
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
+
+PODFILE CHECKSUM: 667d5a4a1a29b2f76f5b4d936511f4d0bc2b8a99
+
+COCOAPODS: 1.5.3

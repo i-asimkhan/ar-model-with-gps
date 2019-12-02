@@ -1,0 +1,6 @@
+framework module Pods_ARModelWithGPS {
+  umbrella header "Pods-ARModelWithGPS-umbrella.h"
+
+  export *
+  module * { export * }
+}
