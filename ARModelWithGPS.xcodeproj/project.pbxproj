@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49BD271E9E6BC16B2D0ACB18 /* Pods_ARModelWithGPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71EFA96F065A979607F8852 /* Pods_ARModelWithGPS.framework */; };
 		FD22DB05223B903A0018ED58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22DB04223B903A0018ED58 /* AppDelegate.swift */; };
 		FD22DB07223B903A0018ED58 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FD22DB06223B903A0018ED58 /* art.scnassets */; };
 		FD22DB09223B903A0018ED58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22DB08223B903A0018ED58 /* ViewController.swift */; };
 		FD22DB0C223B903A0018ED58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22DB0A223B903A0018ED58 /* Main.storyboard */; };
 		FD22DB0E223B903C0018ED58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD22DB0D223B903C0018ED58 /* Assets.xcassets */; };
 		FD22DB11223B903C0018ED58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22DB0F223B903C0018ED58 /* LaunchScreen.storyboard */; };
+		FD35B9E723957F9E00A2DD98 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FD35B9E623957F9E00A2DD98 /* README.md */; };
+		FD4A0ECC223D593C00B7A4FF /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A0ECB223D593C00B7A4FF /* LocationDelegate.swift */; };
+		FD4A0ECE223D5D4600B7A4FF /* UserDefauts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A0ECD223D5D4600B7A4FF /* UserDefauts+Extensions.swift */; };
+		FD4A0ED0223D5D6A00B7A4FF /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A0ECF223D5D6A00B7A4FF /* CLLocation+Extension.swift */; };
+		FD8DF4D7223BE4E60047C5DD /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DF4D6223BE4E60047C5DD /* WebServices.swift */; };
+		FD8DF4D9223BE51B0047C5DD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DF4D8223BE51B0047C5DD /* Model.swift */; };
+		FD8DF4DB223BF7120047C5DD /* MapviewAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DF4DA223BF7120047C5DD /* MapviewAnnotation.swift */; };
+		FD8DF4DD223BF8A80047C5DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DF4DC223BF8A80047C5DD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44F4FA90AA1C027AB9A78BED /* Pods-ARModelWithGPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARModelWithGPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARModelWithGPS/Pods-ARModelWithGPS.release.xcconfig"; sourceTree = "<group>"; };
+		B7FF108CA66363B6716F5DC0 /* Pods-ARModelWithGPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARModelWithGPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARModelWithGPS/Pods-ARModelWithGPS.debug.xcconfig"; sourceTree = "<group>"; };
+		E71EFA96F065A979607F8852 /* Pods_ARModelWithGPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARModelWithGPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD22DB01223B903A0018ED58 /* ARModelWithGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARModelWithGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD22DB04223B903A0018ED58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD22DB06223B903A0018ED58 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		FD22DB0D223B903C0018ED58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD22DB10223B903C0018ED58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD22DB12223B903C0018ED58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD35B9E623957F9E00A2DD98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FD4A0ECB223D593C00B7A4FF /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		FD4A0ECD223D5D4600B7A4FF /* UserDefauts+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefauts+Extensions.swift"; sourceTree = "<group>"; };
+		FD4A0ECF223D5D6A00B7A4FF /* CLLocation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		FD8DF4D6223BE4E60047C5DD /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		FD8DF4D8223BE51B0047C5DD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FD8DF4DA223BF7120047C5DD /* MapviewAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapviewAnnotation.swift; sourceTree = "<group>"; };
+		FD8DF4DC223BF8A80047C5DD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BD271E9E6BC16B2D0ACB18 /* Pods_ARModelWithGPS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B14D5FBCDCB92A4B56AC8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71EFA96F065A979607F8852 /* Pods_ARModelWithGPS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		452354997FC31FC97CB1D4F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7FF108CA66363B6716F5DC0 /* Pods-ARModelWithGPS.debug.xcconfig */,
+				44F4FA90AA1C027AB9A78BED /* Pods-ARModelWithGPS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD22DAF8223B903A0018ED58 = {
 			isa = PBXGroup;
 			children = (
+				FD35B9E623957F9E00A2DD98 /* README.md */,
 				FD22DB03223B903A0018ED58 /* ARModelWithGPS */,
 				FD22DB02223B903A0018ED58 /* Products */,
+				452354997FC31FC97CB1D4F1 /* Pods */,
+				29B14D5FBCDCB92A4B56AC8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +97,7 @@
 		FD22DB03223B903A0018ED58 /* ARModelWithGPS */ = {
 			isa = PBXGroup;
 			children = (
+				FD4A0ECA223D591800B7A4FF /* LocationManagerDelegate */,
 				FD22DB04223B903A0018ED58 /* AppDelegate.swift */,
 				FD22DB06223B903A0018ED58 /* art.scnassets */,
 				FD22DB08223B903A0018ED58 /* ViewController.swift */,
@@ -63,8 +105,22 @@
 				FD22DB0D223B903C0018ED58 /* Assets.xcassets */,
 				FD22DB0F223B903C0018ED58 /* LaunchScreen.storyboard */,
 				FD22DB12223B903C0018ED58 /* Info.plist */,
+				FD8DF4D6223BE4E60047C5DD /* WebServices.swift */,
+				FD8DF4DC223BF8A80047C5DD /* Constants.swift */,
+				FD8DF4D8223BE51B0047C5DD /* Model.swift */,
+				FD8DF4DA223BF7120047C5DD /* MapviewAnnotation.swift */,
 			);
 			path = ARModelWithGPS;
+			sourceTree = "<group>";
+		};
+		FD4A0ECA223D591800B7A4FF /* LocationManagerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A0ECF223D5D6A00B7A4FF /* CLLocation+Extension.swift */,
+				FD4A0ECD223D5D4600B7A4FF /* UserDefauts+Extensions.swift */,
+				FD4A0ECB223D593C00B7A4FF /* LocationDelegate.swift */,
+			);
+			path = LocationManagerDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD22DB15223B903C0018ED58 /* Build configuration list for PBXNativeTarget "ARModelWithGPS" */;
 			buildPhases = (
+				DE6E780E81CF6E40F3682BF4 /* [CP] Check Pods Manifest.lock */,
 				FD22DAFD223B903A0018ED58 /* Sources */,
 				FD22DAFE223B903A0018ED58 /* Frameworks */,
 				FD22DAFF223B903A0018ED58 /* Resources */,
+				7D36C63F1099DD312C5946C4 /* [CP] Embed Pods Frameworks */,
+				FF822701079B30B9A6FCFB4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +186,7 @@
 			files = (
 				FD22DB07223B903A0018ED58 /* art.scnassets in Resources */,
 				FD22DB11223B903C0018ED58 /* LaunchScreen.storyboard in Resources */,
+				FD35B9E723957F9E00A2DD98 /* README.md in Resources */,
 				FD22DB0E223B903C0018ED58 /* Assets.xcassets in Resources */,
 				FD22DB0C223B903A0018ED58 /* Main.storyboard in Resources */,
 			);
@@ -134,13 +194,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D36C63F1099DD312C5946C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARModelWithGPS/Pods-ARModelWithGPS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARModelWithGPS/Pods-ARModelWithGPS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6E780E81CF6E40F3682BF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARModelWithGPS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF822701079B30B9A6FCFB4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARModelWithGPS/Pods-ARModelWithGPS-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARModelWithGPS/Pods-ARModelWithGPS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD22DAFD223B903A0018ED58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4A0ECC223D593C00B7A4FF /* LocationDelegate.swift in Sources */,
+				FD4A0ED0223D5D6A00B7A4FF /* CLLocation+Extension.swift in Sources */,
 				FD22DB09223B903A0018ED58 /* ViewController.swift in Sources */,
 				FD22DB05223B903A0018ED58 /* AppDelegate.swift in Sources */,
+				FD8DF4D7223BE4E60047C5DD /* WebServices.swift in Sources */,
+				FD8DF4D9223BE51B0047C5DD /* Model.swift in Sources */,
+				FD4A0ECE223D5D4600B7A4FF /* UserDefauts+Extensions.swift in Sources */,
+				FD8DF4DB223BF7120047C5DD /* MapviewAnnotation.swift in Sources */,
+				FD8DF4DD223BF8A80047C5DD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +424,7 @@
 		};
 		FD22DB16223B903C0018ED58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FF108CA66363B6716F5DC0 /* Pods-ARModelWithGPS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +443,7 @@
 		};
 		FD22DB17223B903C0018ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F4FA90AA1C027AB9A78BED /* Pods-ARModelWithGPS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
